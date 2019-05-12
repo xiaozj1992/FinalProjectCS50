@@ -43,15 +43,16 @@ public class StageControl : MonoBehaviour
             countDown -= Time.deltaTime;
             float timer = Mathf.Round(countDown * 10f)/10f;
             if (countDown < 0) {
+                if (LevelGenerator.wave == 3) {
+                    SceneManager.LoadScene("Success");
+                } else {
                 countDown = 0.0f;
                 isBetween = true;
                 // set TimerCountDown back to transparent
                 temp = text.color;
                 temp.a = 0;
                 text.color = temp;
-                if (LevelGenerator.wave == 3) {
-                    SceneManager.LoadScene("Success");
-                }
+                    }
             }
             text.text = "Wave ENds in: " + timer;
         }

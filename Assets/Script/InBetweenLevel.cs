@@ -35,6 +35,8 @@ public class InBetweenLevel : MonoBehaviour
             PlayerControl.interactive = true;
             // Turnoff inBetween State
             StageControl.isBetween = false;
+            // Reset CountDown Timer
+            StageControl.countDown = 10.0f;
             // Deactive this GameObject.
             gameObject.SetActive(false);
         }

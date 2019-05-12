@@ -27,6 +27,7 @@ public class BackFireBullet : MonoBehaviour
         if (collision.gameObject.layer == 8) {
             Instantiate(onHitEffect, collision.gameObject.transform.position, Quaternion.Euler(0,180,0));
             Destroy(collision.gameObject);
+            LevelGenerator.enemyTokill -= 1;
         }
         // reset velocity
         rb.velocity = transform.right * speed;
