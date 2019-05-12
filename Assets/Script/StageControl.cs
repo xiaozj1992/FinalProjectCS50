@@ -25,6 +25,7 @@ public class StageControl : MonoBehaviour
     void Update()
     {
         if (LevelGenerator.isFailed) {
+            LevelGenerator.incomingNinja.Clear();
             // change scenes to Fail
             SceneManager.LoadScene("Failed");
         }
