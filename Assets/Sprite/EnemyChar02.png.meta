@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 049df9c4576b9cf45bde32a7f60c3a09
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemyChar02_0
+    21300002: EnemyChar02_1
+    21300004: EnemyChar02_2
+    21300006: EnemyChar02_3
+    21300008: EnemyChar02_4
+    21300010: EnemyChar02_5
+    21300012: EnemyChar02_6
+    21300014: EnemyChar02_7
+    21300016: EnemyChar02_8
+    21300018: EnemyChar02_9
+    21300020: EnemyChar02_10
+    21300022: EnemyChar02_11
+    21300024: EnemyChar02_12
+    21300026: EnemyChar02_13
+    21300028: EnemyChar02_14
+    21300030: EnemyChar02_15
+    21300032: EnemyChar02_16
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyChar02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57169f00fdf7dc40a9325fc66c0abfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 248
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1031a125f73859448f2451b1d332694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 248
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3519940351a840e4495138865fdd52a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_3
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 248
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83149c6c429f1148a5182d2de6d1e85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 248
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14554c2d6ef6bf4daa4f43163923e94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 248
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43e0f0d23f702468ce5de103efae50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f26aab722d29264ba1688732d2425c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 124
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7052c5de7c7ee1b45a384579664ea2cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 124
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f4e053f06ed9345a1c9b4a803d5c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_9
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 124
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbdf317482dfe54cb2cb77eb742ae2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 125
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.61, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce02842d36edfe42b2518b2d383ebc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_11
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 124
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.61, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac75ca4ba6c28540a0ab6aba5dde9fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.61, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2582d25c5959a6e4c92bf85ccebcab3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.61, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c1e323a18314244818465e7afff9d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_14
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.61, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5291d77a9fe462439b272888d69757f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_15
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 0
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61b1588d0fad7d4ea060c533f14b164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyChar02_16
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 124
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0274e199fbe5cf64bb7556abee0eb06b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e7826cb44b025e749bc0b19b26e892ab
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
