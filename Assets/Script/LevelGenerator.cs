@@ -109,6 +109,8 @@ public class LevelGenerator : MonoBehaviour
 
     // Genrate incoming Ninja data
     public static void GeneratingLevel(int wave) {
+        // Fixing bug where the very first wave have more than one Queue installed.
+        incomingNinja.Clear();
         // Total # of Ninja
         int ninjaCount = 10 + wave * 5;
         enemyTokill = ninjaCount;

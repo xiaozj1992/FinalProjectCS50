@@ -24,7 +24,7 @@ public class InBetweenLevel : MonoBehaviour
             LevelGenerator.enemyTokill -= 1;
         }
         // press return to advance to next level
-        if (Input.GetButtonDown("Submit")){
+        if (Input.GetButtonDown("Submit") && StageControl.isBetween){
             // add 2 more ultimate bullets
             PlayerControl.Ammo += 2;
 
