@@ -44,14 +44,14 @@ public class PlayerControl : MonoBehaviour
         // -----< Movements >------
         // Primary Button for up
         if (Input.GetMouseButtonDown(0)) {
-            interactive = false;
+            //interactive = false;
             currentPosition = LevelGenerator.floorData[currentFloor - 1];
             currentFloor += 1;
             animator.Play("Player_JumpUp");
         }
         // Secondary Button for down
         if (Input.GetMouseButtonDown(1)) {
-            interactive = false;
+            //interactive = false;
             currentPosition = LevelGenerator.floorData[currentFloor - 1];
             currentFloor -= 1;
             animator.Play("Player_JumpDown");
