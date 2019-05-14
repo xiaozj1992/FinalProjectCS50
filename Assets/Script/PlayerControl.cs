@@ -7,6 +7,7 @@ public class PlayerControl : MonoBehaviour
     public Animator animator;
     public static int Ammo = 3;
     public static int currentFloor = 2;
+    public static int bulletsInAir = 10;
     public GameObject player;
     public Transform firePoint0;
     public Transform firePoint1;
@@ -71,7 +72,7 @@ public class PlayerControl : MonoBehaviour
         // -----< Shooting >-----
         // Normal shooting by pressing space
         if (Input.GetKeyDown("space")) {
-            interactive = false;
+            //interactive = false;
             animator.Play("Player_Fire");
             Shoot();
         }
@@ -80,7 +81,7 @@ public class PlayerControl : MonoBehaviour
         // adding constrain
         if (Input.GetKeyDown("z")){
             if (Ammo > 0) {
-                interactive = false;
+                //interactive = false;
                 animator.Play("Player_UltFire");
                 UltShoot();
                 Ammo -= 1;
@@ -103,6 +104,7 @@ public class PlayerControl : MonoBehaviour
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint0.position, firePoint0.rotation);
+        bulletsInAir -= 1;
     }
 
     // Ultimate shooting

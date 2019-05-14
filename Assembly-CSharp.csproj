@@ -74,6 +74,8 @@
     <Compile Include="Assets\Script\StageControl.cs" />
     <Compile Include="Assets\Script\Tryagain.cs" />
     <Compile Include="Assets\Script\Wave.cs" />
+    <Compile Include="Assets\Sprite\BulletOnDestory.cs" />
+    <Compile Include="Assets\Sprite\InAirBulletCount.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Xiaozj/Documents/Harvard Education/CSCI E-23A/FinalProject/CS50FinalProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

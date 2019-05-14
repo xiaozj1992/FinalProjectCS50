@@ -112,12 +112,12 @@ public class LevelGenerator : MonoBehaviour
         // Fixing bug where the very first wave have more than one Queue installed.
         incomingNinja.Clear();
         // Total # of Ninja
-        int ninjaCount = 10 + wave * 5;
+        int ninjaCount = 50 + wave * 25;
         enemyTokill = ninjaCount;
         for (int i = 0; i < ninjaCount; i++) {
             // Data Structure:  isFly   Floor#
             // Data          :  [0,1]   [1,4]
-            int isFly = Random.Range(0, 2);
+            int isFly = Random.Range(0, 4);
             int floorNum = Random.Range(1, 5);
 
             // Normal Ninja will only spawn on the ground
@@ -131,7 +131,7 @@ public class LevelGenerator : MonoBehaviour
 
             int[] nextNinja = new int[] { isFly, floorNum };
             incomingNinja.Enqueue(nextNinja);
-            timeTable.Enqueue((Random.Range(0.5f, 2.0f)));
+            timeTable.Enqueue((Random.Range(0.3f, 0.8f)));
         }
     }
 }
